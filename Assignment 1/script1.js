@@ -12,14 +12,14 @@ let regexp1=/^((?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z0-9!@#$%&*]+.{8,15})$/;
      return false;
     }
     
-     if(!(regexp1.test(pwd))){
+    else if(!(regexp1.test(pwd))){
       
-        alert("Password should contain at least one number, one lower and one upper case letter"+pwd);
+        alert("Password should contain at least one number, one lower and one upper case letter");
         return false;
     }
     
-        
+       else{ 
         return true;
-   
+       }
 
 }
