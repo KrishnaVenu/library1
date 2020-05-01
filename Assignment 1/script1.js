@@ -9,12 +9,14 @@ let regexp1=/^((?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z0-9!@#$%&*]+.{8,15})$/;
  
   if(!regexp.test(email)){ 
      document.getElementById("error1").innerHTML="invalid id"; 
+    error1.style.color="red"; 
      return false;
     }
     
     else if(!(regexp1.test(pwd))){
       
     document.getElementById("error2").innerHTML="invalid";
+      error1.style.color="red"; 
         return false;
     }
     
