@@ -16,7 +16,7 @@ let regexp1=/^((?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z0-9!@#$%&*]+.{8,15})$/;
     else if(!(regexp1.test(pwd))){
       
     document.getElementById("error2").innerHTML="invalid";
-      error1.style.color="red"; 
+      error2.style.color="red"; 
         return false;
     }
     
