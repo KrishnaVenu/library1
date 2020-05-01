@@ -19,8 +19,8 @@ function validate(){
         }
         
                 else if(!(regexp1.test(pwd))){
+                  document.getElementById("error2").innerHTML="invalid";
                   
-                    alert("Password should contain at least one number, one lower and one upper case letter");
                     return false;
                 }
                 
