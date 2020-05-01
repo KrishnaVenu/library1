@@ -15,12 +15,13 @@ function validate(){
     
      if(!regexp.test(email)){ 
          document.getElementById("error1").innerHTML="invalid id"; 
+          error1.style.color="red"; 
          return false;
         }
         
                 else if(!(regexp1.test(pwd))){
                   document.getElementById("error2").innerHTML="invalid";
-                  
+                   error2.style.color="red"; 
                     return false;
                 }
                 
