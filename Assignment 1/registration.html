@@ -62,7 +62,7 @@
                 <h1>REGISTRATION</h1>
               </div>
               
-              <form id="member-registration" action="index.html">
+              <form id="member-registration" action="index.html" onsubmit="return validate()">
                 <fieldset>
                   
                   <div class="form-group">
@@ -101,7 +101,7 @@
                   </div>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="form-group d-flex justify-content-start">
-                      <button type="submit"onclick="return validate();" class="btn btn-primary">Submit</button>
+                      <button type="submit"id="submit" class="btn btn-primary">Submit</button>
                      
                     </div>
                     <div class="form-check form-group d-flex justify-content-end">
