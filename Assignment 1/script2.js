@@ -4,7 +4,7 @@
 
 
 
-
+document.getElementById("submit").addEventListener("click", validate);
 function validate(){
     let email=document.getElementById("email").value;
     let pwd =document.getElementById("pwd").value;
